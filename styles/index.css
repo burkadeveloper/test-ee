@@ -1,0 +1,331 @@
+body{
+    margin-top: 5rem;
+}
+
+
+
+i{
+    color: white;
+}
+#nav-bar{
+    background-color: aqua;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(19, 19, 172);
+    z-index: 100;
+}
+.left{
+    background-color: red;
+    width: 15%;
+}
+.middle{
+    background-color: black;
+    width: 50%;
+}
+.right{
+  
+    width: 35%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    
+}
+.collapse-elemt{
+    background-color: rgb(8, 133, 91);
+    width: 25%;
+   
+    
+}
+.menu{
+    display: none;
+}
+
+
+/*large screen products sytles */
+
+
+
+.products-grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    background-color: rgb(255, 255, 255);
+    row-gap: 15px;
+    column-gap: 15px;
+    padding: 0% 3%;
+}
+.product-card-container{
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 10px;
+     
+  }
+  .product-name{
+    padding-left: 0.0rem ;
+     
+     
+   }
+   .categories,.fa-star{
+     
+       margin-left: 0.8rem ;
+   }
+.produt-card-header{
+    text-align: center;
+}
+.over-price{
+    color: red;
+}
+.product-image{
+   height: 200px;
+}
+.product-card-body{
+    
+}
+.product-name,.product-price{
+    padding: 1.75% 2.5%;
+}
+.product-price{
+    font-size: 1rem;
+ 
+    font-weight: bold;
+}
+.quantitySelection{
+    
+    padding: 3% 1%;
+}
+.select{
+    width: 4rem;
+    border-radius: 5px;
+}
+.add_button{
+    
+    text-align: center;
+    padding-bottom: 3%;
+}
+.btn-shop{
+    width: 80%;
+    border-radius: 20px;
+    height: 45px;
+    background-color: rgb(211, 175, 16);
+    color: black;
+    border: none;
+    
+}
+
+.description-title{
+  
+    font-weight: bolder;
+}
+/* CARUOSEL IMAGES */
+.carousel-cs{
+   
+   padding-top: 3%;
+   padding-bottom: 3%;
+ 
+    
+}
+.carousel-IMAGES{
+    height: 100;
+}
+ .card{
+    background-color: rgb(150, 150, 150);
+    width: 30%;
+    margin: auto;
+}
+img.coursale-image{
+  height: 350px;
+}
+.crsl-btn{
+    background-color: #000000;
+}
+
+
+
+
+
+/* footer */
+#footer{
+    background-color: rgb(7, 50, 167);
+    padding: 8% 7%;
+    color: white;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.social-media,.contacts,.services{
+    line-height: 4;
+}
+
+
+
+
+
+
+/* MOBILE DEVICE COMPATIBLE CODES */
+
+@media (max-width:760px) {
+   /* navigation bar  */
+
+    #nav-bar{
+    background-color: aqua;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.left{
+    background-color: red;
+    width: 10%;
+}
+.middle{
+    background-color: rgb(238, 0, 0);
+    width: 75%;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.input-icon{
+    width: 200px;
+}
+.search{
+    display: none;
+}
+
+.search-icon{
+    margin-left: 2px;
+}
+.right{
+   
+    height: 45px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 0%;
+    justify-content: end;
+    margin-left: auto;
+}
+.colps{
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    width: 100%;
+}
+.first-elemt{
+    margin-top: 30px;
+}
+.collapse-elemt{
+    display: none;
+   
+    
+}
+.collapsed{
+   display: block;
+   position: absolute;
+   top: 40px;
+   right: 150px;
+     width: 100px;
+   height: 100vh;
+   z-index: 3;
+   
+
+
+
+    
+}
+.colps:hover{
+    background-color: white;
+}
+.menu{
+    display: block;
+    margin-right: 7rem;
+}
+
+
+
+/* products   */
+.products-grid{
+    display: grid;
+    grid-template-columns:  1fr  ;
+    
+   
+}
+.product-name{
+    padding-left: 0.01rem ;
+   
+    padding-left: 1.5rem ;  
+   }
+   .categories{
+      
+       margin-left: 0.6rem ;
+   }
+.product-card-container{
+  border-color: rgb(238, 238, 238);
+  border-style: solid;
+  border-width: 0.2px;
+  border-radius: 10px;
+  margin:auto
+   
+}
+/* carousel style */
+.carousel-cs{
+   
+    padding-top: 3%;
+    padding-bottom: 3%;
+  
+     
+ }
+ .carousel-IMAGES{
+     height: 80px;
+ }
+ .card-header{
+    text-align: center;
+ }
+  .card{
+     background-color: rgb(255, 255, 255);
+     width: 60%;
+     margin: auto;
+ }
+ img.coursale-image{
+   height: 200px;
+ }
+ .crsl-btn{
+     background-color: #000000;
+ }
+
+
+
+/* footer */
+#footer{
+    background-color:#0d6efd;
+    padding: 3% 5%;
+    color: white;
+    
+}
+
+.phone-number{
+    font-size: 0.8rem;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns:  150px 150px 150px;
+    column-gap: 10px;
+}
+.social-media,.contacts,.services{
+    line-height: 4;
+}
+}
+
+
+

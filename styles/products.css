@@ -1,0 +1,433 @@
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.selected{
+    background-color:rgb(7, 50, 167);
+    color: white;
+}
+.icon{
+    color: red;
+}
+
+
+/* navigation bar  */
+*{
+    margin:0 ;
+    padding: 0;
+}
+.over-price{
+    text-decoration: line-through;
+}
+body{
+    margin-top: 5.5rem;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-top{
+    display: flex;
+    padding: 1% ;
+   color: white;
+   background-color:rgb(7, 50, 167);
+   position: fixed;
+   z-index: 10000000000000000000000;
+   width: 100%;
+   top: 0;
+  
+
+}
+.brand-name{
+    
+        font-family: "Playwrite CU", cursive;
+        font-style: normal;
+      
+}
+.left-section{
+    
+    width: 12%;
+    text-align: center;
+   
+}
+.middle-section{
+    display: flex;
+    width: 65%;
+    margin-left: 4.5rem;
+    
+}
+.input-elemt{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    
+}
+.left-right{
+    display: flex;
+    margin-right: 2.5rem;
+    
+    width: 20%;
+    margin-left: 0.6rem;
+}
+.search-icon{
+  padding: 1% 2%;
+  border-left: none;
+  background-color: #0d6efd;
+  border-width: 0.1px;
+  border-color: #9b9b9b;
+  color: white;
+  
+}
+.search-image{
+    height: 5px;
+}
+
+.cart{
+    margin-left: 1.3rem;
+    margin-top: 0.4rem;
+}
+.user{
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+}
+.dropdown-default{
+    width: 30%;
+}
+
+select option{
+    
+    font-size: 15px;
+    height: 20px;
+    padding: 2px;
+}
+
+
+
+/* products-- css */
+
+
+#products{
+   
+}
+.product-card{
+    margin-top: 5rem;
+    column-gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.description-title{
+  
+    font-weight: bolder;
+}
+.price{
+    display: flex;
+   }
+
+
+.orignal-price{
+    margin-right:1rem ;
+}
+.over-price{
+    text-decoration: line-through;
+}
+.size-list{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    row-gap: 5px;
+    column-gap: 8px;
+    
+}
+.size-button{
+    width: 150px;
+    border-width: 0.3px;
+    padding: 9px 12px;
+    border-radius: 5px;
+}
+
+.add-to-cart{
+    
+   
+    margin-top: 2rem;
+}
+.favourite{
+    
+    
+    margin-top: 0.5rem; 
+}
+.btn-favourite{
+    background-color: white;
+    color: black;
+}
+.btn-favourite:hover{
+    background-color: white;
+    color: black; 
+}
+.btn-favourite:active{
+    background-color: white;
+    color: black;   
+}
+
+
+
+
+/* carousle style wide screen */
+
+
+.products-carousel-container{
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+   
+}
+.products-carousel-image{
+    height: 300px;
+    border-radius: 6%;
+    
+    
+}
+
+/* you may also like */
+
+
+
+
+
+/* you may also-like section */
+#you-may-also-like{
+    margin-top: 2.8rem;
+   
+    padding: 3% 15%;
+   
+}
+.yml-product-grid{
+    display: grid;
+    grid-template-columns: 300px  300px  300px;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.shop-button{
+    
+    margin-bottom: 1rem;
+}
+.shop{
+    width:60%;
+    border-width: 0.5px;
+    padding: 1% 0%;
+    border-radius: 3px;
+    background-color: rgb(7, 50, 167);
+    color: white;
+   
+}
+.btn{
+   
+  
+    width: 50%;
+}
+.product{
+    border-color: rgb(206, 206, 206);
+    border-width: 0.1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 0% 4% ;
+}
+.yml-header{
+    text-align: center;
+
+}
+.yml-images{
+    height: 250px;
+    padding-top: 8%;
+
+}
+
+.descrp{
+    width: 90%;
+}
+.orignal-price{
+    font-weight: bolder;
+   
+}
+.over-price{
+    color: red;
+}
+
+
+
+/* footer */
+#footer{
+    background-color:rgb(7, 50, 167);
+    padding: 8% 7%;
+    color: rgb(255, 255, 255);
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.social-media,.contacts,.services{
+    line-height: 4;
+}
+
+
+
+
+
+
+
+/* mobile device code */
+@media(max-width:756px){
+   
+    #you-may-also-like{
+        margin-top: 2.8rem;
+       
+        padding: 3% 5%;
+       
+    }
+    
+.nav-bar-top{
+    display: flex;
+    justify-content: ;
+
+}
+.left-section{
+    
+    width: 20%;
+    margin: 0;
+    text-align: center;
+    padding-left: 3%;
+    
+}
+.middle-section{
+    display: flex;
+    width: 65%;
+    margin-left: 0.6rem;
+    
+}
+.input-elemt{
+    width: 200px;
+    height: 40px;
+    margin-top: 3px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
+
+.search-icon{
+    height: 40px;
+    margin-top: 3px;
+    
+}
+.left-right{
+    display: flex;
+     position: relative;
+     left: 0.5rem;
+    width: 30%;
+    
+    
+}
+.search-icon{
+    padding: 2% 3%;
+    border-width: 0.2px;
+    border-radius: 2px;
+    border-left: none;
+    background-color: #0d6efd;
+    border-width: 0.1px;
+    border-color: #9b9b9b;
+    color: white;
+    
+  }
+.cart{
+    margin-left: 0.85rem;
+    margin-top: 0.4rem;
+    align-items: center;
+}
+.user{
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+.product{
+        border-color: rgb(206, 206, 206);
+        border-width: 0.1px;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 0% 4% ;
+    }
+
+    .size-button{
+        width: 100px;
+        border-width: 0.3px;
+        padding: 9px 12px;
+        border-radius: 5px;
+        margin-left: 50px;
+    }
+    .size-list{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        row-gap: 10px;
+        column-gap: 15px;
+        padding-left: 1%;
+       
+    }
+
+    .product-card{
+        margin-top: 15pxrem;
+        column-gap: 3rem;
+        display: grid;
+        grid-template-columns: 400px ;
+        margin-left:25px;
+        
+     
+    }
+    .add-to-cart,.favourite{
+        text-align: center;
+    }
+    .btn-favourite{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border-radius: 15px;
+    }
+    .btn{
+   
+        border-radius: 15px;
+        width: 55%;
+    }
+    .yml-product-grid{
+        display: grid;
+        grid-template-columns: 200px 200px  ;
+        column-gap: 10px;
+        row-gap: 5px;
+    }
+    .yml-images{
+        height: 150px;
+        padding-top: 8%;
+    
+    }
+    #footer{
+        background-color:rgb(7, 50, 167);
+         padding: 3% 5%;
+        color: rgb(255, 255, 255);
+        
+    }
+    .footer{
+        display: grid;
+        grid-template-columns:  150px 150px 150px;
+        column-gap: 10px;
+    }
+    .social-media,.contacts,.services{
+        line-height: 4;
+    }
+   
+
+}
